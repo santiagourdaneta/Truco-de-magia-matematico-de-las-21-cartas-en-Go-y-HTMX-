@@ -1,0 +1,36 @@
+# Binarios compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Binarios específicos del proyecto
+the-mentalist-engine
+the-mentalist-engine.test
+
+# Herramientas y archivos temporales de Go
+bin/
+obj/
+/vendor/
+*.test
+*.out
+
+# Playwright
+.playwright/
+browser-snapshots/
+test-results/
+
+# Entorno y Secretos
+.env
+*.local
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+desktop.ini
